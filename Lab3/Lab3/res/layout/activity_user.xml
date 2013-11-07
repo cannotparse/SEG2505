@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/welcome" />
+
+    <TextView
+        android:id="@+id/errorPass"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/emailSent"
+        android:layout_alignBottom="@+id/emailSent"
+        android:layout_toRightOf="@+id/emailSent" />
+
+    <TextView
+        android:id="@+id/emailSent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Welcome"
+        android:text="we have sent an email to " />
+
+    <TextView
+        android:id="@+id/confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/errorPass"
+        android:text="to confirm your account!" />
+
+    <TextView
+        android:id="@+id/userId"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/errorPass"
+        android:layout_toRightOf="@+id/Welcome" />
+
+</RelativeLayout>
