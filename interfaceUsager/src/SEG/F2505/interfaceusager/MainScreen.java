@@ -1,4 +1,4 @@
-package SEG.F2505.interfaceusager;
+package seg.f2505.interfaceusager;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -25,7 +25,8 @@ public class MainScreen extends Activity {
 	}
 	public void onClickAskQuestion(View view){
 		Intent intent = new Intent(this, AskQuestion.class);
-		 intent.putExtra("Profile", loggedp);  
+		intent.putExtra("Profile", loggedp);  
+		startActivity(intent);
 	}
 	public void onClickAnswerQuestion(){
 		

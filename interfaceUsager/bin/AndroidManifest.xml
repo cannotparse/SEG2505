@@ -1,64 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="SEG.F2505.interfaceusager"
+    package="seg.f2505.interfaceusager"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0" android:installLocation="auto">
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="18"
         android:targetSdkVersion="18" />
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
+        android:label="interfaceusager"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="SEG.F2505.interfaceusager.MainScreen"
+            android:name="seg.f2505.interfaceusager.MainScreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+            </activity>
         <activity
-            android:name="SEG.F2505.interfaceusager.LoginScreen"
-            android:label="@string/title_activity_login_screen"
-            android:windowSoftInputMode="adjustResize|stateVisible" >
-        </activity>
-        <activity
-            android:name="SEG.F2505.interfaceusager.CreateAccount"
-            android:label="@string/title_activity_create_account" >
-        </activity>
-        <activity
-            android:name="SEG.F2505.interfaceusager.ConfirmAccount"
-            android:label="@string/title_activity_confirm_account" >
-        </activity>
-        <activity
-            android:name="SEG.F2505.interfaceusager.ProfileScreen"
-            android:label="@string/title_activity_profile_screen" >
-        </activity>
-        <activity
-            android:name="SEG.F2505.interfaceusager.EditDomains"
-            android:label="@string/title_activity_edit_domains" >
-        </activity>
-        <activity
-            android:name="SEG.F2505.interfaceusager.AnswerQuestion"
-            android:label="@string/title_activity_answer_question" >
-        </activity>
-        <activity
-            android:name="SEG.F2505.interfaceusager.AskQuestion"
-            android:label="@string/title_activity_ask_question" >
-        </activity>
-        <activity
-            android:name="SEG.F2505.interfaceusager.PendingQuestions"
-            android:label="@string/title_activity_pending_questions" >
-        </activity>
-        <activity
-            android:name="SEG.F2505.interfaceusager.EvaluateAnswer"
-            android:label="@string/title_activity_evaluate_answer" >
-        </activity>
+                android:name="seg.f2505.interfaceusager.AskQuestion"
+                android:label="@string/title_activity_ask_question"></activity>
+         
     </application>
-
 </manifest>

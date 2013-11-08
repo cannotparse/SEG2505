@@ -3,7 +3,6 @@
 
     <string name="app_name">interfaceUsager</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
     <string name="title_activity_create_account">CreateAccount</string>
     <string name="title_activity_confirm_account">ConfirmAccount</string>
     <string name="title_activity_profile_screen">ProfileScreen</string>
@@ -12,5 +11,24 @@
     <string name="title_activity_ask_question">AskQuestion</string>
     <string name="title_activity_pending_questions">PendingQuestions</string>
     <string name="title_activity_evaluate_answer">EvaluateAnswer</string>
-
+	<string-array name="domain_array">
+        <item>Math</item>
+     	<item>Science</item>
+     	<item>Autre</item>
+    </string-array>
+    <string-array name="domain_array_sub0">
+        <item>Math1</item>
+     	<item>Science2</item>
+     	<item>Autre2</item>
+    </string-array>
+    <string-array name="domain_array_sub1">
+        <item>Math2</item>
+     	<item>Science2</item>
+     	<item>Autre2</item>
+    </string-array>
+    <string-array name="domain_array_sub2">
+        <item>Math3</item>
+     	<item>Science2</item>
+     	<item>Autre2</item>
+    </string-array>
 </resources>

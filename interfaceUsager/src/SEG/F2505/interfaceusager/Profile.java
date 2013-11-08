@@ -1,4 +1,4 @@
-package SEG.F2505.interfaceusager;
+package seg.f2505.interfaceusager;
 
 import java.io.Serializable;
 
