@@ -2,14 +2,19 @@ package SEG.F2505.interfaceusager;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 
 public class MainScreen extends Activity {
-
+	
+	public Profile loggedp;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main_screen);
+		loggedp = new Profile("Rodger", "rodger.waldron@gmail.com", "hi");
 	}
 
 	@Override
@@ -18,7 +23,17 @@ public class MainScreen extends Activity {
 		getMenuInflater().inflate(R.menu.main_screen, menu);
 		return true;
 	}
-	
-	
-
+	public void onClickAskQuestion(View view){
+		Intent intent = new Intent(this, AskQuestion.class);
+		 intent.putExtra("Profile", loggedp);  
+	}
+	public void onClickAnswerQuestion(){
+		
+	}
+	public void onClickViewProfile(){
+		
+	}
+	public void onClickViewBank(){
+		
+	}
 }
