@@ -19,7 +19,6 @@ public class MainScreen extends Activity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main_screen, menu);
 		return true;
 	}
@@ -28,13 +27,7 @@ public class MainScreen extends Activity {
 		intent.putExtra("Profile", loggedp);  
 		startActivity(intent);
 	}
-	public void onClickAnswerQuestion(){
-		
-	}
-	public void onClickViewProfile(){
-		
-	}
-	public void onClickViewBank(){
-		
-	}
+	public void onClickAnswerQuestion(){}
+	public void onClickViewProfile(){}
+	public void onClickViewBank(){}
 }
